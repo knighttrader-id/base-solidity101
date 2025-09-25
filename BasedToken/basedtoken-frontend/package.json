@@ -1,0 +1,32 @@
+{
+  "name": "basedtoken-frontend",
+  "version": "1.0.0",
+  "description": "BasedToken Frontend - Modern Web3 interface for ERC-20 token management",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.0.0",
+    "next": "^14.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.1",
+    "viem": "^2.21.15",
+    "wagmi": "^2.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.3",
+    "pino-pretty": "^13.1.1",
+    "postcss": "^8",
+    "typescript": "^5"
+  }
+}
