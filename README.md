@@ -96,10 +96,44 @@ ProjectName/
 - **Next.js 15** - React framework with App Router
 - **React 18** - UI library
 - **Tailwind CSS v4** - Utility-first CSS framework
-- **Wagmi v2** - React hooks for Ethereum
+- **Wagmi v2** - React hooks for Ethereum (instead of OnchainKit)
 - **Viem** - TypeScript interface for Ethereum
 - **PWA** - Progressive Web App capabilities
 - **Dark Theme** - Modern glassmorphism design
+
+## 🔧 **Why Wagmi Instead of OnchainKit?**
+
+We chose **Wagmi** over OnchainKit for our Web3 frontend development for several key reasons:
+
+### **1. Flexibility & Control**
+- **Wagmi** provides granular control over wallet connections and contract interactions
+- **OnchainKit** is more opinionated and has limited customization options
+- **Wagmi** allows fine-tuned configuration for complex use cases
+
+### **2. TypeScript Support**
+- **Wagmi** has excellent TypeScript support with full type safety
+- **OnchainKit** has limited TypeScript integration
+- **Wagmi** provides better IntelliSense and compile-time error checking
+
+### **3. React Integration**
+- **Wagmi** is built specifically for React with hooks-first approach
+- **OnchainKit** is more generic and less React-optimized
+- **Wagmi** provides better React patterns and lifecycle management
+
+### **4. Ecosystem & Community**
+- **Wagmi** has a larger, more active community
+- **Wagmi** is maintained by the same team as Viem
+- **Wagmi** has better documentation and examples
+
+### **5. Performance**
+- **Wagmi** is lighter and more performant
+- **OnchainKit** includes more overhead for features we don't need
+- **Wagmi** provides better tree-shaking and bundle optimization
+
+### **6. Future-Proofing**
+- **Wagmi** is actively developed and updated
+- **OnchainKit** has slower development cycles
+- **Wagmi** provides better long-term support and updates
 
 ## 🚀 Quick Start
 
@@ -303,6 +337,8 @@ If you encounter any issues or have questions:
 - **Foundry Documentation**: https://book.getfoundry.sh
 - **Next.js Documentation**: https://nextjs.org/docs
 - **Wagmi Documentation**: https://wagmi.sh
+- **Viem Documentation**: https://viem.sh
+- **OnchainKit vs Wagmi Comparison**: https://wagmi.sh/guides/onchainkit
 
 ---
 
